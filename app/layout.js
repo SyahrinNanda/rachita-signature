@@ -5,8 +5,8 @@ export const metadata = {
   title: 'Rachita Sign — Tanda tangani PDF dengan mudah',
   description: 'Tampilan aplikasi untuk menandatangani dan memberi anotasi PDF dengan mudah.',
   icons: {
-    icon: '/rachita-logo.png',
-    apple: '/rachita-logo.png',
+    icon: { url: '/rachita-logo-transparent.png', type: 'image/png' },
+    apple: { url: '/rachita-logo-transparent.png', type: 'image/png' },
   },
 };
 
