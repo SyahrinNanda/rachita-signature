@@ -74,7 +74,7 @@ h1 em { color: #5b9644; }
 .privacy-section { background: #e6f2e2; }
 .privacy-icon { color: #5d9463; }
 .site-footer { background: #244f3b; color: #c7daca; }
-.footer-logo { width: 35px; height: 35px; object-fit: contain; background: #fff; border-radius: 50%; padding: 2px; }
+.footer-logo { width: 35px; height: 35px; object-fit: contain; }
 
 .editor-view { background: #f1f6f0; }
 .editor-brand-logo { width: 31px; height: 31px; object-fit: contain; flex: none; }
@@ -85,7 +85,7 @@ h1 em { color: #5b9644; }
 .thumbnail { border-color: #cce3c9; background: #f2f9f0; color: #4f7b55; }
 .thumbnail-page em { color: #4a7952; }
 .zoom-controls, .workspace-controls strong { color: #396848; }
-.sample-logo { background: url('/rachita-logo.png') center / contain no-repeat; font-size: 0; }
+.sample-logo { background: url('/rachita-logo-transparent.png') center / contain no-repeat; font-size: 0; }
 .sample-page { color: #344f40; }
 .sample-header strong, .sample-page h2 { color: #2c5940; }
 .sample-info { background: #f8fbf6; }
