@@ -33,7 +33,7 @@ export default function Page() {
 
     <header className="site-header">
       <a className="brand" href="#beranda" aria-label="Rachita Sign, kembali ke beranda">
-        <img className="brand-logo" src="/rachita-logo.png" alt="" />
+        <img className="brand-logo" src="/rachita-logo-transparent.png" alt="" />
         <span className="brand-name">Rachita<span className="brand-dot">.</span><small>SIGN</small></span>
       </a>
       <nav className="site-nav" aria-label="Navigasi utama">
@@ -60,7 +60,7 @@ export default function Page() {
           <div className="visual-orbit orbit-one"></div><div className="visual-orbit orbit-two"></div>
           <div className="visual-note note-top"><svg><use href="#i-spark"/></svg> Dokumen siap ditandatangani</div>
           <div className="hero-document">
-            <div className="document-topline"><img className="doc-mini-logo" src="/rachita-logo.png" alt="" /><span>RACHITA GROUP</span><span className="doc-top-right">DOKUMEN RESMI</span></div>
+            <div className="document-topline"><img className="doc-mini-logo" src="/rachita-logo-transparent.png" alt="" /><span>RACHITA GROUP</span><span className="doc-top-right">DOKUMEN RESMI</span></div>
             <div className="document-rule"></div>
             <div className="doc-caption">SURAT PERNYATAAN</div>
             <div className="doc-title">Persetujuan Dokumen</div>
@@ -100,7 +100,7 @@ export default function Page() {
 
     <section className="editor-view" id="editor-view" hidden aria-label="Editor PDF">
       <div className="editor-topbar">
-        <div className="editor-identity"><button className="icon-button back-button" id="back-home" aria-label="Kembali ke beranda"><svg><use href="#i-back"/></svg></button><img className="editor-brand-logo" src="/rachita-logo.png" alt="Rachita Sign" /><span className="editor-divider"></span><span className="editor-file-icon"><svg><use href="#i-file"/></svg></span><div><strong id="editor-filename">dokumen.pdf</strong><small><span className="status-dot"></span><span id="editor-file-status">Siap diedit</span></small></div></div>
+        <div className="editor-identity"><button className="icon-button back-button" id="back-home" aria-label="Kembali ke beranda"><svg><use href="#i-back"/></svg></button><img className="editor-brand-logo" src="/rachita-logo-transparent.png" alt="Rachita Sign" /><span className="editor-divider"></span><span className="editor-file-icon"><svg><use href="#i-file"/></svg></span><div><strong id="editor-filename">dokumen.pdf</strong><small><span className="status-dot"></span><span id="editor-file-status">Siap diedit</span></small></div></div>
         <div className="editor-top-actions"><button className="icon-button" id="undo-btn" aria-label="Batalkan" title="Batalkan"><svg><use href="#i-undo"/></svg></button><button className="icon-button" id="redo-btn" aria-label="Ulangi" title="Ulangi"><svg><use href="#i-redo"/></svg></button><span className="editor-divider"></span><button className="editor-new" id="new-document">Dokumen baru</button><button className="button button-primary editor-download" id="editor-download">Unduh PDF <svg><use href="#i-download"/></svg></button></div>
       </div>
       <div className="editor-toolbar" role="toolbar" aria-label="Alat editor"><div className="tool-group"><button className="tool-button active" data-tool="pilih"><svg><use href="#i-cursor"/></svg><span>Pilih</span></button><button className="tool-button" data-tool="tanda-tangan"><svg><use href="#i-pen"/></svg><span>Tanda tangan</span></button><button className="tool-button" data-tool="teks"><svg><use href="#i-text"/></svg><span>Teks</span></button><button className="tool-button" data-tool="stempel"><svg><use href="#i-stamp"/></svg><span>Stempel</span></button><button className="tool-button" data-tool="bentuk"><svg><use href="#i-shape"/></svg><span>Bentuk</span></button><button className="tool-button" data-tool="hp"><svg><use href="#i-phone"/></svg><span>Lewat HP</span></button></div><div className="toolbar-tip"><svg><use href="#i-shield"/></svg> PDF tetap di browser</div></div>
@@ -112,7 +112,7 @@ export default function Page() {
       <div className="editor-footer"><div className="footer-hint"><span className="footer-hint-dot"></span><span id="editor-status">Siap mengedit</span></div><div className="footer-buttons"><button className="button button-outline" id="preview-btn"><svg><use href="#i-eye"/></svg> Pratinjau</button><button className="button button-outline" id="print-btn"><svg><use href="#i-print"/></svg> Cetak</button><button className="button button-primary" id="footer-download"><svg><use href="#i-download"/></svg> Unduh PDF</button></div></div>
     </section>
 
-    <footer className="site-footer"><div className="footer-brand"><img className="footer-logo" src="/rachita-logo.png" alt="" /><strong>Rachita<span>.</span> Sign</strong></div><p>PDF diproses di browser; sesi QR hanya membawa gambar tanda tangan sementara.</p><span>Copyright 2026 Rachita Sign</span></footer>
+    <footer className="site-footer"><div className="footer-brand"><img className="footer-logo" src="/rachita-logo-transparent.png" alt="" /><strong>Rachita<span>.</span> Sign</strong></div><p>PDF diproses di browser; sesi QR hanya membawa gambar tanda tangan sementara.</p><span>Copyright 2026 Rachita Sign</span></footer>
 
     <input id="pdf-input" type="file" accept="application/pdf,.pdf" hidden />
     <dialog className="app-dialog" id="signature-dialog"><div className="dialog-head"><div><span className="section-kicker">TANDA TANGAN</span><h2>Buat tanda tangan Anda</h2></div><button className="icon-button dialog-close" data-close="signature-dialog" aria-label="Tutup"><svg><use href="#i-close"/></svg></button></div><p>Gambar dengan mouse, stylus, atau jari. Area tanda tangan transparan.</p><div className="signature-canvas-wrap"><canvas id="signature-canvas" width="900" height="330" aria-label="Area menggambar tanda tangan"></canvas><span>Tanda tangan di sini</span></div><div className="signature-settings"><label>Warna <input type="color" id="pen-color" defaultValue="#000000" /></label><label>Ketebalan <input type="range" id="pen-width" min="2" max="8" defaultValue="3" /></label></div><div className="dialog-actions"><button className="button button-outline" id="signature-undo">Ulangi</button><button className="button button-outline" id="clear-signature">Hapus</button><button className="button button-primary" id="add-signature">Tambahkan <svg><use href="#i-arrow"/></svg></button></div></dialog>
