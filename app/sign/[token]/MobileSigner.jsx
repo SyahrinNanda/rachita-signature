@@ -11,7 +11,7 @@ export default function MobileSigner({ token }) {
   const [message, setMessage] = useState('Memeriksa sesi tanda tangan…');
   const [expiresAt, setExpiresAt] = useState(null);
   const [remaining, setRemaining] = useState('05:00');
-  const [color, setColor] = useState('#275b45');
+  const [color, setColor] = useState('#000000');
   const [width, setWidth] = useState(4);
 
   useEffect(() => {
