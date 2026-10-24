@@ -1,0 +1,22 @@
+{
+  "name": "rachita-sign",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test:smoke": "node tests/smoke.mjs"
+  },
+  "dependencies": {
+    "next": "16.2.9",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.4.299",
+    "qrcode": "^1.5.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.63.0"
+  }
+}
