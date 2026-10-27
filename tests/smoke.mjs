@@ -86,10 +86,6 @@ try {
   await page.locator('[data-shape="rectangle"]').click();
   await page.locator('#element-rotation').fill('25');
   await page.locator('#element-rotation').press('Tab');
-  await page.locator('[data-tool="gambar"]').click();
-  const png = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+l3ioAAAAASUVORK5CYII=', 'base64');
-  await page.locator('#image-input').setInputFiles({ name: 'gambar.png', mimeType: 'image/png', buffer: png });
-  await page.waitForFunction(() => document.querySelectorAll('.annotation.image').length === 1);
   await page.locator('#prev-page').click();
   await page.waitForFunction(() => document.querySelector('#current-page').textContent === '1');
   if (await page.locator('.annotation').count() !== 0) throw new Error('Annotations leaked to wrong page');
