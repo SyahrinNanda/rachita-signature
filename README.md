@@ -36,7 +36,7 @@ Pembersihan sesi melepaskan referensi data dari aplikasi, tetapi tidak menjamin 
 - `app/sign/[token]`: halaman tanda tangan HP.
 - `app/api/qr` dan `lib/qr-store.js`: relay QR sementara.
 - `public/pdf.worker.min.mjs`: worker PDF.js yang versinya mengikuti `pdfjs-dist` di `package-lock.json`.
-- `public/rachita-logo.png`: logo dan favicon.
+- `public/rachita-logo-transparent.png`: logo asli pengguna dan favicon.
 
 Tampilan dijalankan sepenuhnya lewat Next.js. Domain ngrok yang digunakan untuk pengujian development diizinkan pada `next.config.mjs`; sesuaikan daftar tersebut jika domain tunnel berubah, lalu mulai ulang server development.
 

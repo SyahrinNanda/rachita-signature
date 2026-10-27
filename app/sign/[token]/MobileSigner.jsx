@@ -99,7 +99,7 @@ export default function MobileSigner({ token }) {
   return (
     <main className="mobile-sign-page">
       <div className="mobile-sign-card">
-        <div className="mobile-sign-brand"><img src="/rachita-logo.png" alt="" /><span>Rachita<strong> Sign</strong></span></div>
+        <div className="mobile-sign-brand"><img src="/rachita-logo-transparent.png" alt="" /><span>Rachita<strong> Sign</strong></span></div>
         <div className="section-kicker">TANDA TANGAN VIA HP</div>
         <h1>Tanda tangan di sini.</h1>
         <p>Hanya gambar tanda tangan yang dikirim ke komputer. Dokumen PDF tidak dibuka di HP.</p>
