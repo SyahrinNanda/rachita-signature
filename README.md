@@ -15,8 +15,8 @@ Buka `http://localhost:3000`. Untuk menguji QR dengan HP, buka aplikasi memakai 
 
 - Unggah PDF lokal hingga 20 MB dan 100 halaman, dengan validasi format, PDF rusak, dan dokumen terenkripsi.
 - Render halaman dan thumbnail, navigasi halaman, zoom, dan pas halaman.
-- Tanda tangan dengan mouse, stylus, atau sentuhan; unggah PNG/JPEG tanda tangan; serta kirim tanda tangan dari HP melalui QR.
-- Tambah gambar, teks, stempel, kotak, lingkaran, garis, panah, dan coretan bebas.
+- Tanda tangan dengan mouse, stylus, atau sentuhan; serta kirim tanda tangan dari HP melalui QR.
+- Tambah teks, stempel, kotak, lingkaran, garis, panah, dan coretan bebas.
 - Pindah, ubah ukuran, rotasi, opasitas, warna, hapus, duplikasi, undo, dan redo elemen.
 - Pratinjau PDF final sebelum unduh atau cetak. Hasil dibuat sebagai PDF baru sehingga file sumber tetap utuh.
 - Dokumen baru membersihkan PDF, elemen, URL sementara, dan sesi QR aktif dari aplikasi. Tidak ada akun, database dokumen, atau penyimpanan otomatis ke localStorage/IndexedDB.
